@@ -33,7 +33,7 @@ The PCR tube is modeled as a cylinder with concentric washers representing the l
 #### Beer-Lambert Law
 
 The Beer-Lambert Law describes the absorption of light as it travels through a medium:
-$$I(z) = I_0 e^{-\alpha z)$$
+$$I(z) = I_0 e^{-\alpha z}$$
 Where:
 - $\( I(z) \)$ is the intensity of light at depth $\( z \)$
 - $\( I_0 \)$ is the initial intensity of light
