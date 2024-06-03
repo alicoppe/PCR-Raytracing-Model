@@ -25,21 +25,15 @@ The PCR tube is modeled as a cylinder with concentric washers representing the l
    - Outer Radius: $\( r_2 \)$
    - Height: $\( dz \)$
    - Volume of washer:
-     $\
-     V_{\text{washer}} = \pi (r_2^2 - r_1^2) \cdot dz
-     \$
+     $$ V_{\text{washer}} = \pi (r_2^2 - r_1^2) \cdot dz $$
 
 3. **Solid Angle (\(\Omega\)) in Spherical Coordinates:**
-   - $\
-     \Omega = \int_0^{2\pi} \int_0^{\theta} \sin(\phi) \, d\phi \, d\theta
-     \$
+   - $$ \Omega = \int_0^{2\pi} \int_0^{\theta} \sin(\phi) \, d\phi \, d\theta $$
 
 #### Beer-Lambert Law
 
 The Beer-Lambert Law describes the absorption of light as it travels through a medium:
-$\
-I(z) = I_0 e^{-\alpha z}
-\$
+$$ I(z) = I_0 e^{-\alpha z) $$
 Where:
 - $\( I(z) \)$ is the intensity of light at depth $\( z \)$
 - $\( I_0 \)$ is the initial intensity of light
@@ -48,16 +42,12 @@ Where:
 #### Solid Angle and Spherical Coordinates
 
 To calculate the solid angle subtended by the optical fiber from a point in the liquid:
-$\
-\Omega = \int_0^{2\pi} \int_0^{\theta} \sin(\phi) \, d\phi \, d\theta
-\$
+$$ \Omega = \int_0^{2\pi} \int_0^{\theta} \sin(\phi) \, d\phi \, d\theta $$
 
 #### Snell's Law in 3D
 
 Snell's Law describes the refraction of light at the interface between two media:
-$\
-n_1 \sin(\theta_1) = n_2 \sin(\theta_2)
-\$
+$$ n_1 \sin(\theta_1) = n_2 \sin(\theta_2) $$
 Where:
 - $\( n_1 \)$ and $\( n_2 \)$ are the refractive indices of the two media
 - $\( \theta_1 \)$ is the angle of incidence
