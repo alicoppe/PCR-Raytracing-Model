@@ -15,12 +15,12 @@ The PCR tube is modeled as a cylinder with concentric washers representing the l
 #### Parametric Equations
 
 1. **Cylinder (PCR Tube):**
-   - Radius: \( r \)
+   - Radius: $\( r \)$
    - Height: \( h \)
    - Equation: 
-     \[
+     $\[
      x = r \cos(\theta), \quad y = r \sin(\theta), \quad z = z
-     \]
+     \]$
 
 2. **Washer (Slice of Liquid):**
    - Inner Radius: \( r_1 \)
