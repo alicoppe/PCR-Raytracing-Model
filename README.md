@@ -67,6 +67,7 @@ Where:
 
 In 3D, Snell's Law can be applied to each component of the incident ray.
 
+
 ## Simulation Steps
 
 ### Volume Discretization
